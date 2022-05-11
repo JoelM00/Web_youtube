@@ -1,0 +1,21 @@
+
+div {
+    color: crimson;
+    border: 1px solid blue;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: burlywood;
+}
+
+a[href="https://google.pt"] {
+    background-color: greenyellow;
+}
+
+a[href*="olx"] {
+    background-color: hotpink;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea odit culpa vitae minus numquam sunt error, sequi tempora dolorem dolores temporibus ipsam inventore modi facilis nisi iusto, quasi nemo harum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fugit iusto cumque autem consequatur mollitia ab harum et dolores consequuntur amet, non excepturi illum voluptas, necessitatibus delectus natus, recusandae ipsam.
+    </p>
+
+    <ul>
+        <li>Lorem ipsum dolor sit amet cabo, perferendis facere recusandae maxime velit. At, obcaecati?</li>
+        <li>Lorem ipsum dolor sit amet cabo, perferendis facere recusandae maxime velit. At, obcaecati?</li>
+        <li>Lorem ipsum dolor sit amet cabo, perferendis facere recusandae maxime velit. At, obcaecati?</li>
+    </ul>
+
+    <form>
+        
+        <label for="username">Say your name</label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <br><hr><br>
+        
+        <label for="email">Say your email</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+        <br><hr><br>
+        
+        <label for="password">Say your password</label>
+        <input type="password" id="password" name="password" placeholder="password" required>
+  
+        <br><br>
+   
+        <input type="radio" name="genero" value="male" id="option1">
+        <label for="option1">Male</label>
+        
+        <input type="radio" name="genero" value="female" id="option2">
+        <label for="option2">Female</label>
+        
+        <input type="radio" name="genero" value="other" id="option3">
+        <label for="option3">Other</label>
+   
+        <br><br>
+    
+        <label for="question">Security question:</label>
+        
+        <select name="question" id="question">
+            <option value="q1">What color are your favourite?</option>
+            <option value="q2">What is your favourite CPU?</option>
+            <option value="q2">What is your best password?</option>
+        </select>
+        <br>
+
+        <lable for="answer">Security question answer:</lable>
+        <input type="text" id="answer" name="answer">
+        <br><br>
+
+        <label for="bio">Your bio:</label><br>
+        <textarea name="bio" id="bio" cols="50" rows="10" placeholder="About you..."></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit the form">
+
+    </form>
+</body>
+</html>
