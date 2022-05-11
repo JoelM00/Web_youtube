@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "dsfgkhjb dsfjghb sdljfkhbg lkdshjfbg glkjsdfb glkhjdsfb gdlfkjbgh lkjsbdf hglkjsdbfng",
+      "likes": 2
+    },
+    {
+      "title": "ola mundo",
+      "body": "ola",
+      "likes": 0,
+      "id": 6
+    },
+    {
+      "title": "dfgdfg",
+      "body": "dfgdfgdfg",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "title": "dfgdfbgdfb",
+      "body": "dfvbdfbdfbdf",
+      "likes": 0,
+      "id": 8
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "Welcome to the new blog",
+      "answerA": "dsfgkhjb dsfjghb sdljfkhbg lkdshjfbg glkjsdfb glkhjdsfb gdlfkjbgh lkjsbdf hglkjsdbfng",
+      "answerB": 30
+    }
+  ]
+}
